@@ -19,18 +19,25 @@ body {
   justify-content: center;
 }
 
+.container {
+  display: column;
+  align-items: center;
+  justify-content: center;
+}
+
 </style>
 
 </head>
 <body>
-
-<section class='container' style="display: column; justify-content: center; align-items: center;" >
-  <h1>Select The Color of The Background</h1>
- 
-  <input type="text" id="text">
-   <div>
-    <input type="button" id="button" value="Click to Change Color" onclick="changeColor()">
+<div class="container">
+  <div>
+    <h1>Select The Color of The Background</h1>
+  
+    <input type="text" id="text">
+    <div>
+      <input type="button" id="button" value="Click to Change Color" onclick="changeColor()">
+    </div>
   </div>
-</section>
+</div>
 </body>
 </html>
